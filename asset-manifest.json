@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/agrobaseReact/static/css/main.35dcebda.css",
-    "main.js": "/agrobaseReact/static/js/main.6604887c.js",
+    "main.js": "/agrobaseReact/static/js/main.18c7fced.js",
     "static/css/877.ca8f43bb.chunk.css": "/agrobaseReact/static/css/877.ca8f43bb.chunk.css",
     "static/js/877.baa8922e.chunk.js": "/agrobaseReact/static/js/877.baa8922e.chunk.js",
     "static/css/414.c474bb13.chunk.css": "/agrobaseReact/static/css/414.c474bb13.chunk.css",
@@ -29,7 +29,7 @@
     "index.html": "/agrobaseReact/index.html",
     "static/media/getFetch.cjs": "/agrobaseReact/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.35dcebda.css.map": "/agrobaseReact/static/css/main.35dcebda.css.map",
-    "main.6604887c.js.map": "/agrobaseReact/static/js/main.6604887c.js.map",
+    "main.18c7fced.js.map": "/agrobaseReact/static/js/main.18c7fced.js.map",
     "877.ca8f43bb.chunk.css.map": "/agrobaseReact/static/css/877.ca8f43bb.chunk.css.map",
     "877.baa8922e.chunk.js.map": "/agrobaseReact/static/js/877.baa8922e.chunk.js.map",
     "414.c474bb13.chunk.css.map": "/agrobaseReact/static/css/414.c474bb13.chunk.css.map",
@@ -52,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.35dcebda.css",
-    "static/js/main.6604887c.js"
+    "static/js/main.18c7fced.js"
   ]
 }
