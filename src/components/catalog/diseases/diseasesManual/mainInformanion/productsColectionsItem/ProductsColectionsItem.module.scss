@@ -1,0 +1,42 @@
+.link {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  box-shadow: 0 2px 1px #000;
+
+  transition: all 0.5s ease 0s;
+
+  &:hover {
+    background-color: #fcfcfc;
+    box-shadow: 0 2px 5px #000;
+  }
+
+  @media screen and (max-width: 500px) {
+    background-color: #f3f3f3;
+    border: 0;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 0 0 0;
+
+    &:hover {
+      background-color: #d6d6d6;
+      box-shadow: 0 0 0 0;
+    }
+  }
+}
+
+.name {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.span {
+  margin-right: 5px;
+}
+
+.icon {
+  width: 20px;
+}
+
+.reting {
+  display: flex;
+}

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.containerFilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 320px) {
+    padding: 10px;
+  }
+}
+
+.title {
+  margin-right: 5px;
+  @media screen and (max-width: 768px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 16px;
+  }
+}

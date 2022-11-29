@@ -1,0 +1,177 @@
+.header {
+  background-color: #fcfcfc;
+
+  @media screen and (max-width: 768px) {
+    // padding: 0 20px 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #19d48f;
+  }
+
+  @media screen and (max-width: 400px) {
+    padding: 0;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #000;
+  padding: 0 10px 15px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 20px 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding: 0 20px;
+  }
+}
+
+.container {
+  display: none;
+  align-items: center;
+
+  @media screen and (min-width: 500px) {
+    display: flex;
+    margin-bottom: -10px;
+  }
+}
+
+.burger {
+  // margin-left: auto;
+  @media screen and (min-width: 500px) {
+    display: none;
+  }
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+}
+
+.imgB {
+  width: 27px;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: 500;
+  color: #2e2e2e;
+  transition: color 0.3s;
+  padding: 15px 0;
+
+  &:hover {
+    color: #4e91f5;
+  }
+
+  & + & {
+    margin-left: 25px;
+
+    @media screen and (max-width: 768px) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.active {
+  position: relative;
+  color: #4e91f5;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #2196f3;
+    border-radius: 2px;
+  }
+}
+
+.disabled {
+  display: none;
+}
+
+.linkHome {
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: 700;
+  color: #ff6161;
+  transition: color 0.3s;
+  padding: 15px 0;
+
+  margin-right: 50px;
+
+  &:hover {
+    color: #cf2b2b;
+  }
+}
+
+.activeHome {
+  position: relative;
+  color: #cf2b2b;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #cf2b2b;
+    border-radius: 2px;
+  }
+}
+
+.logoLink {
+  margin-right: 30px;
+  margin-bottom: -10px;
+
+  @media screen and (max-width: 768px) {
+    margin-right: 10px;
+  }
+}
+
+.logo {
+  width: 60px;
+  border-radius: 10px;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  background-image: url('../../../assets/img/email.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  // margin-bottom: -10px;
+  transition: 0.3s;
+
+  &:hover {
+    background-image: url('../../../assets/img/active-email.png');
+  }
+}
+
+.active2 > div {
+  background-image: url('../../../assets/img/active-email.png');
+}
+
+.contact {
+  font-weight: 500;
+}

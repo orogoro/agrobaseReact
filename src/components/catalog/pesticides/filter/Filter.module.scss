@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 20px;
+  flex-direction: column;
+
+  @media screen and (max-width: 500px) {
+    position: unset;
+  }
+}
+
+.select {
+  margin: 10px;
+  font-size: 15px;
+  width: 70%;
+
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 90%;
+  }
+}

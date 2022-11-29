@@ -1,0 +1,72 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  //   height: 350px;
+  margin: 10px;
+  padding: 5px 5px 10px 5px;
+  box-shadow: 0 0 4px 0px #000;
+  text-decoration: none;
+  border-radius: 3px;
+  color: #000;
+
+  transition: all 0.5s ease 0s;
+
+  &:hover {
+    box-shadow: 0 0 7px 2px #000;
+  }
+
+  @media screen and (max-width: 500px) {
+    flex-direction: unset;
+    width: 90%;
+    max-width: 400px;
+    margin: 3px;
+    text-align: left;
+    padding: 5px;
+
+    box-shadow: 0 0 0 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    margin: 0;
+
+    &:hover {
+      background-color: #e0e0e0;
+      box-shadow: 0 0 0 0 #000;
+    }
+  }
+}
+
+.containerText {
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+
+.img {
+  margin-bottom: 5px;
+  width: 200px;
+
+  @media screen and (max-width: 500px) {
+    max-width: 80px;
+    margin: 0;
+  }
+}
+
+.title {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+
+  @media screen and (max-width: 500px) {
+    font-size: 17px;
+  }
+}
+
+.text {
+  @media screen and (max-width: 500px) {
+    font-size: 15px;
+  }
+}

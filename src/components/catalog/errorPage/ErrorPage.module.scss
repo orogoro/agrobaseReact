@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  //   width: 800px;
+  //   margin: 0 auto;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.span {
+  font-weight: 600;
+  color: #5c4947;
+}
+
+.img {
+  margin-top: 50px;
+  width: 300px;
+}
