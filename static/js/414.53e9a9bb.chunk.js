@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkagronomist=self.webpackChunkagronomist||[]).push([[414],{4414:function(s,n,a){a.r(n),a.d(n,{default:function(){return u}});var e=a(2791),r=a(7689),t=a(5457),c="InsectsPage_main__GNrdU",i=a(184);var u=function(){var s=(0,r.UO)().itemName;return(0,i.jsxs)("main",{className:c,children:[!s&&(0,i.jsx)(t.PK,{}),(0,i.jsx)(e.Suspense,{fallback:(0,i.jsx)(t.aN,{}),children:(0,i.jsx)(r.j3,{})})]})}}}]);
+//# sourceMappingURL=414.53e9a9bb.chunk.js.map

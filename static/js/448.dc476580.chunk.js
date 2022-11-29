@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkagronomist=self.webpackChunkagronomist||[]).push([[448],{1448:function(s,a,e){e.r(a),e.d(a,{default:function(){return c}});var n=e(2791),r=e(7689),i=e(5457),t="DiseasesPage_main__f93YS",u=e(184);var c=function(){var s=(0,r.UO)().itemName;return(0,u.jsxs)("main",{className:t,children:[!s&&(0,u.jsx)(i.Oo,{}),(0,u.jsx)(n.Suspense,{fallback:(0,u.jsx)(i.aN,{}),children:(0,u.jsx)(r.j3,{})})]})}}}]);
+//# sourceMappingURL=448.dc476580.chunk.js.map

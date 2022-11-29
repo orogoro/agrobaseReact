@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/448.2b207ed3.chunk.css","mappings":"AACE,oCADF,0BAEI","sources":["pages/diseasesPage/DiseasesPage.module.scss"],"sourcesContent":[".main {\n  @media screen and (max-width: 500px) {\n    margin-top: 65px;\n  }\n}\n"],"names":[],"sourceRoot":""}

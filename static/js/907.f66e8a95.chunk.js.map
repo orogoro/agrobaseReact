@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/907.f66e8a95.chunk.js","mappings":"2IAMA,UAJA,WACE,OAAO,SAAC,KAAD,GACR,C","sources":["pages/catalogsPage/CatalogsPage.jsx"],"sourcesContent":["import { Catalogs } from '../../components/catalog';\n\nfunction CatalogsPage() {\n  return <Catalogs />;\n}\n\nexport default CatalogsPage;\n"],"names":[],"sourceRoot":""}

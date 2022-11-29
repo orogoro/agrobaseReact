@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/877.ca8f43bb.chunk.css","mappings":"AACE,oCADF,sBAEI","sources":["pages/homePage/HomePage.module.scss"],"sourcesContent":[".main {\n  @media screen and (max-width: 500px) {\n    margin-top: 60px;\n  }\n}\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkagronomist=self.webpackChunkagronomist||[]).push([[691],{5691:function(e,s,a){a.r(s),a.d(s,{default:function(){return c}});var n=a(2791),r=a(7689),i=a(5457),t="WeedsPage_main__QJVyX",u=a(184);var c=function(){var e=(0,r.UO)().itemName;return(0,u.jsxs)("main",{className:t,children:[!e&&(0,u.jsx)(i.O8,{}),(0,u.jsx)(n.Suspense,{fallback:(0,u.jsx)(i.aN,{}),children:(0,u.jsx)(r.j3,{})})]})}}}]);
+//# sourceMappingURL=691.7a0625a9.chunk.js.map

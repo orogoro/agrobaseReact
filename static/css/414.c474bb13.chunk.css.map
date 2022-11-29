@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/414.c474bb13.chunk.css","mappings":"AACE,oCADF,yBAEI","sources":["pages/insectsPage/InsectsPage.module.scss"],"sourcesContent":[".main {\n  @media screen and (max-width: 500px) {\n    margin-top: 65px;\n  }\n}\n"],"names":[],"sourceRoot":""}
